@@ -217,6 +217,10 @@ section.formcontato {
     justify-content: space-around;
 }
 
+.formcontato__form {
+    text-align: left;
+    /* Alineamos el texto a la izquierda */
+}
 
 .formcontato__form .formcontato__form-wrapper {
     display: flex;
@@ -442,6 +446,10 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Contacto*/
     .formcontato__contacto {
         padding: 0%;
+    }
+    .formcontato__form {
+        text-align: left;
+        padding: 10px 20px;
     }
     /*Footer*/
 
